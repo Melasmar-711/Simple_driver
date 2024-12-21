@@ -53,6 +53,6 @@ This project, when run, will continuously monitor task execution and display mis
 
 ## Attachments
 
-![Example Image](output1.png)
-![Example Image](output2.png)
+![output Image](output1.png)
+![continued_ouput Image](output2.png)
 
