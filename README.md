@@ -1,5 +1,7 @@
 # README: RTOS Concepts with Driver Integration
 
+[View the github Repo](https://github.com/Melasmar-711/Simple_driver.git)
+
 ## Overview
 
 This code demonstrates an application where real-time scheduling concepts are combined with device driver interactions. It focuses on scheduling periodic and aperiodic tasks using Rate Monotonic Scheduling (RMS) in a real-time operating system (RTOS) context. Additionally, it integrates interaction with a device driver for task control and communication.
