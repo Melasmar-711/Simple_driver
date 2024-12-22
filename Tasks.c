@@ -130,10 +130,10 @@ int main()
 	double U = WCET[0]/periods[0]+WCET[1]/periods[1]+WCET[2]/periods[2];
 
     	// compute Ulub by considering the fact that we have harmonic relationships between periods
-	double Ulub = 1;
+	//double Ulub = 1;
     	
 	//if there are no harmonic relationships, use the following formula instead
-	//double Ulub = NPERIODICTASKS*(pow(2.0,(1.0/NPERIODICTASKS)) -1);
+	double Ulub = NPERIODICTASKS*(pow(2.0,(1.0/NPERIODICTASKS)) -1);
 	
 	//check the sufficient conditions: if they are not satisfied, exit  
   	if (U > Ulub)
